@@ -28,8 +28,21 @@ let blank;
 console.log(blank);
 
 // 9
-blank = null
+blank = null;
 console.log(blank);
 
 // BONUS IN CLASS
+// 1
+// const quarter = 0.25, dime = 0.10, nickel = 0.05, penny = 0.01
+// console.log(quarter, dime, nickel, penny);
+
+const [quarter, dime, nickel, penny] = [0.25, 0.10, 0.05, 0.01];
+// 2
+console.log(quarter, dime, nickel, penny);
+
+// 3
+let letters = "qwertyuiop";
+
+// 4
+console.log(letters[letters.length - 1])
 
